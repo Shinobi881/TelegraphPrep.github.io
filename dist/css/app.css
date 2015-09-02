@@ -166,22 +166,6 @@ h6, .h6 {
 }
 
 
-/*
- * Slides List
- */
-
-.slidesList li:hover {
-  color: blue;
-  /*font-weight: bold;*/
-  cursor: pointer;
-}
-
-.pairing:hover {
-  color: blue;
-  /*font-weight: bold;*/
-  cursor: pointer;
-}
-
 #headerLogo {
   max-width: 100%;
 }
