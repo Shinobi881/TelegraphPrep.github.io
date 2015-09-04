@@ -6,7 +6,7 @@ $('document').ready(function() {
     //  else
       //  toggle visibility of iframe
 
-  $('.slidesList, .pairing').click(function(event) {
+  $('.slidesList, .pairing, .expectations').click(function(event) {
     var target = event.target;
     var next = $(target).next()[0];
     if ((next && next.localName !== 'iframe') || next === undefined) {
